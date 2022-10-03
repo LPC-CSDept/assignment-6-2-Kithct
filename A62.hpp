@@ -3,6 +3,9 @@
 #include <iomanip>
 #include <iostream>
 using namespace std;
+double nthpowerp(int n);
+double nthpowern(int n);
+void printout(double result);
 
 // complete two functions
 double nthpowerp(int n)
