@@ -11,6 +11,7 @@ double nthpowerp(int n)
         for(int i=0;i<n;i++)
                 nthpower*=2;
         cout<<nthpower<<endl;
+        return nthpower;
         // return n_th power number
 }
 double nthpowern(int n)
@@ -20,6 +21,7 @@ double nthpowern(int n)
         for(int i=0;i<n;i++)
                 nthpower*=0.5;
         cout<<nthpower<<endl;
+        return nthpower;
         // return n_th power number
 }
 void printout(double result)
