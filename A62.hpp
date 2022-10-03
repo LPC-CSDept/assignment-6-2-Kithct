@@ -16,6 +16,7 @@ double nthpowerp(int n)
 double nthpowern(int n)
 {
         double nthpower=1;
+        n*=-1;
         for(int i=0;i<n;i++)
                 nthpower*=0.5;
         cout<<nthpower<<endl;
